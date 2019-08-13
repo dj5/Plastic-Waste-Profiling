@@ -1,0 +1,3760 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_c07dad539c93474e83c946d393731825 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c07dad539c93474e83c946d393731825" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_c07dad539c93474e83c946d393731825 = L.map(
+                                  'map_c07dad539c93474e83c946d393731825',
+                                  {center: [18.45,73.85],
+                                  zoom: 15,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_133b70177f984904bfc6a2d8ff961f3d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+        
+    
+            var circle_marker_cbe6e9f8d19345b9b1ba5b497b06156e = L.circleMarker(
+                [18.4961356,73.8024026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f092bfb1c92545848b65c2e895fb70fa = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_f092bfb1c92545848b65c2e895fb70fa.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_cbe6e9f8d19345b9b1ba5b497b06156e.bindPopup(popup_f092bfb1c92545848b65c2e895fb70fa);
+
+            
+        
+    
+            var circle_marker_66084c53f9fc48699da66cb0eebaabf8 = L.circleMarker(
+                [18.5207,73.8438],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_739444687283461c8e5991111d8a600e = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_739444687283461c8e5991111d8a600e.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_66084c53f9fc48699da66cb0eebaabf8.bindPopup(popup_739444687283461c8e5991111d8a600e);
+
+            
+        
+    
+            var circle_marker_3755e83eaaef4c1b9fa168711f4e5e85 = L.circleMarker(
+                [18.5207,73.8438],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f4ffa8aaa86146d2ad89d46a6c88a8ed = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_f4ffa8aaa86146d2ad89d46a6c88a8ed.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_3755e83eaaef4c1b9fa168711f4e5e85.bindPopup(popup_f4ffa8aaa86146d2ad89d46a6c88a8ed);
+
+            
+        
+    
+            var circle_marker_704702b2cfaf44eeb7ad47c3f5cb547e = L.circleMarker(
+                [18.5207,73.8438],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2f42f8b23240471a8402157250806858 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_2f42f8b23240471a8402157250806858.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_704702b2cfaf44eeb7ad47c3f5cb547e.bindPopup(popup_2f42f8b23240471a8402157250806858);
+
+            
+        
+    
+            var circle_marker_ff5c190e3aa047aab2d6ff61429c5513 = L.circleMarker(
+                [18.4948264,73.8026081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2a5e94f2bcbe42799a2eff55e04ff3df = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_2a5e94f2bcbe42799a2eff55e04ff3df.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_ff5c190e3aa047aab2d6ff61429c5513.bindPopup(popup_2a5e94f2bcbe42799a2eff55e04ff3df);
+
+            
+        
+    
+            var circle_marker_ba751e39e0b8403eae87233419c3b73b = L.circleMarker(
+                [18.4948264,73.8026081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_9a248da567b440c682e0b218bcda5248 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_9a248da567b440c682e0b218bcda5248.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_ba751e39e0b8403eae87233419c3b73b.bindPopup(popup_9a248da567b440c682e0b218bcda5248);
+
+            
+        
+    
+            var circle_marker_66d6eca95976484d9981656c0e1e1e2c = L.circleMarker(
+                [18.4948261,73.8026083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_a85e1c3e4e874062957a09cd3a2721aa = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_a85e1c3e4e874062957a09cd3a2721aa.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_66d6eca95976484d9981656c0e1e1e2c.bindPopup(popup_a85e1c3e4e874062957a09cd3a2721aa);
+
+            
+        
+    
+            var circle_marker_2b3dc96e0c6b4edb8cd84c17c527d53b = L.circleMarker(
+                [18.4948261,73.8026083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_1d0e91f018d4461d8d7a62c82befd28e = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_1d0e91f018d4461d8d7a62c82befd28e.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_2b3dc96e0c6b4edb8cd84c17c527d53b.bindPopup(popup_1d0e91f018d4461d8d7a62c82befd28e);
+
+            
+        
+    
+            var circle_marker_71cca5ffecf94a78b863d38edb14d2ce = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_64c72b25eab944ac98f26a57c924852e = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_64c72b25eab944ac98f26a57c924852e.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_71cca5ffecf94a78b863d38edb14d2ce.bindPopup(popup_64c72b25eab944ac98f26a57c924852e);
+
+            
+        
+    
+            var circle_marker_6d0bfdf05884486aa56c01ceca08f7a8 = L.circleMarker(
+                [18.4948276,73.8026089],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e6fe4ee7b92d40caa4e23b4928bf03c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_e6fe4ee7b92d40caa4e23b4928bf03c6.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_6d0bfdf05884486aa56c01ceca08f7a8.bindPopup(popup_e6fe4ee7b92d40caa4e23b4928bf03c6);
+
+            
+        
+    
+            var circle_marker_1b9ced86b23a4fb8a42643664e31217c = L.circleMarker(
+                [18.4948261,73.8026083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_b846ac3d6084494badfef43a2a590474 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_b846ac3d6084494badfef43a2a590474.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_1b9ced86b23a4fb8a42643664e31217c.bindPopup(popup_b846ac3d6084494badfef43a2a590474);
+
+            
+        
+    
+            var circle_marker_3875639cdf1c4c0cba989b17a526c7f0 = L.circleMarker(
+                [18.4948261,73.8026083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_1e41d44e5e844886ad5214e14935f1f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_1e41d44e5e844886ad5214e14935f1f7.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_3875639cdf1c4c0cba989b17a526c7f0.bindPopup(popup_1e41d44e5e844886ad5214e14935f1f7);
+
+            
+        
+    
+            var circle_marker_9776262903e24ec88397ca830015edff = L.circleMarker(
+                [18.4948261,73.8026083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2cff92d1040943768b8c50bdd6ec34a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_2cff92d1040943768b8c50bdd6ec34a0.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_9776262903e24ec88397ca830015edff.bindPopup(popup_2cff92d1040943768b8c50bdd6ec34a0);
+
+            
+        
+    
+            var circle_marker_984c59e3e8b74a3894ed4c6ed57d527d = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_bad7fd572bde4afba2e1f09de813e8ab = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_bad7fd572bde4afba2e1f09de813e8ab.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_984c59e3e8b74a3894ed4c6ed57d527d.bindPopup(popup_bad7fd572bde4afba2e1f09de813e8ab);
+
+            
+        
+    
+            var circle_marker_72e351a241544b97a2dc9c5442380749 = L.circleMarker(
+                [18.4924,73.8088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_cbc43c534bbf4d15ab23da791adbaeba = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_cbc43c534bbf4d15ab23da791adbaeba.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_72e351a241544b97a2dc9c5442380749.bindPopup(popup_cbc43c534bbf4d15ab23da791adbaeba);
+
+            
+        
+    
+            var circle_marker_371fff9b0b434689abf614d5c831ed6a = L.circleMarker(
+                [18.4924,73.8088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_8e73863906bb4de39227d0770662ecaa = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_8e73863906bb4de39227d0770662ecaa.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_371fff9b0b434689abf614d5c831ed6a.bindPopup(popup_8e73863906bb4de39227d0770662ecaa);
+
+            
+        
+    
+            var circle_marker_90a6ceed45114f94a900458ca3e50519 = L.circleMarker(
+                [18.4924,73.8088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f3350131838741d2965a0b839b589a6b = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_f3350131838741d2965a0b839b589a6b.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_90a6ceed45114f94a900458ca3e50519.bindPopup(popup_f3350131838741d2965a0b839b589a6b);
+
+            
+        
+    
+            var circle_marker_e22e90ee64cc44b284d360021722227b = L.circleMarker(
+                [18.4924,73.8088],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e8961676bb154eb3afc98dd9efcd7bf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_e8961676bb154eb3afc98dd9efcd7bf3.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_e22e90ee64cc44b284d360021722227b.bindPopup(popup_e8961676bb154eb3afc98dd9efcd7bf3);
+
+            
+        
+    
+            var circle_marker_b688a19daf6d43a8b7464c5f3d7e7b91 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_3c4029f262e843558f45d0634730ab18 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_3c4029f262e843558f45d0634730ab18.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_b688a19daf6d43a8b7464c5f3d7e7b91.bindPopup(popup_3c4029f262e843558f45d0634730ab18);
+
+            
+        
+    
+            var circle_marker_81ea3e5f413f41deb6cc842f2978b829 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_61305789f44d4b5d9e17f5ea9294beda = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_61305789f44d4b5d9e17f5ea9294beda.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_81ea3e5f413f41deb6cc842f2978b829.bindPopup(popup_61305789f44d4b5d9e17f5ea9294beda);
+
+            
+        
+    
+            var circle_marker_6bb624164baa4dfc80450e4f20a06f34 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_0f0b1006e53c4f4c8da5a98e635a88ed = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_0f0b1006e53c4f4c8da5a98e635a88ed.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_6bb624164baa4dfc80450e4f20a06f34.bindPopup(popup_0f0b1006e53c4f4c8da5a98e635a88ed);
+
+            
+        
+    
+            var circle_marker_d4b4651ce6b84d878451aee6cc8c5671 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_c100bba85b4e4c2c913b232c3c53a224 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_c100bba85b4e4c2c913b232c3c53a224.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_d4b4651ce6b84d878451aee6cc8c5671.bindPopup(popup_c100bba85b4e4c2c913b232c3c53a224);
+
+            
+        
+    
+            var circle_marker_fb9476ea20b1416c939db0e559fca4e3 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_d94737c8d20f49e8810579709cd8f3b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_d94737c8d20f49e8810579709cd8f3b7.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_fb9476ea20b1416c939db0e559fca4e3.bindPopup(popup_d94737c8d20f49e8810579709cd8f3b7);
+
+            
+        
+    
+            var circle_marker_4d911699d3344d2b8a20113672ae3856 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f2394a69cdef4eeb96cae608fb469a0d = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_f2394a69cdef4eeb96cae608fb469a0d.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_4d911699d3344d2b8a20113672ae3856.bindPopup(popup_f2394a69cdef4eeb96cae608fb469a0d);
+
+            
+        
+    
+            var circle_marker_b72d42e667fd4feab8f86c9c8f90eeee = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_9a7fcffd80e7432f8f43431656d7a3e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_9a7fcffd80e7432f8f43431656d7a3e4.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_b72d42e667fd4feab8f86c9c8f90eeee.bindPopup(popup_9a7fcffd80e7432f8f43431656d7a3e4);
+
+            
+        
+    
+            var circle_marker_a08eac6b54894f4f816898af50ba247a = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2a0dab9979084792b67248f85e3af87b = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_2a0dab9979084792b67248f85e3af87b.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_a08eac6b54894f4f816898af50ba247a.bindPopup(popup_2a0dab9979084792b67248f85e3af87b);
+
+            
+        
+    
+            var circle_marker_c16fd10b20c2427395494a297fe2b70a = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_c00cd8fb97394052acff4ee8cfe74a3a = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_c00cd8fb97394052acff4ee8cfe74a3a.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_c16fd10b20c2427395494a297fe2b70a.bindPopup(popup_c00cd8fb97394052acff4ee8cfe74a3a);
+
+            
+        
+    
+            var circle_marker_54676aed026b428a80acc291049c6baa = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_9d47138a21444d7a84e2aadabc230281 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_9d47138a21444d7a84e2aadabc230281.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_54676aed026b428a80acc291049c6baa.bindPopup(popup_9d47138a21444d7a84e2aadabc230281);
+
+            
+        
+    
+            var circle_marker_1617cdaf7ec04fbb87d277a791523bc5 = L.circleMarker(
+                [18.4948055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_8c288a863e124cb985a9f63344ae7b1f = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_8c288a863e124cb985a9f63344ae7b1f.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_1617cdaf7ec04fbb87d277a791523bc5.bindPopup(popup_8c288a863e124cb985a9f63344ae7b1f);
+
+            
+        
+    
+            var circle_marker_9ed73eeadbd34f62a8249d8d81ef951c = L.circleMarker(
+                [18.4371,73.9619],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_d4c1446c66674d6984ffe6dc74fcba4c = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_d4c1446c66674d6984ffe6dc74fcba4c.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_9ed73eeadbd34f62a8249d8d81ef951c.bindPopup(popup_d4c1446c66674d6984ffe6dc74fcba4c);
+
+            
+        
+    
+            var circle_marker_bfe4debe806444578bfa6306b173f02a = L.circleMarker(
+                [18.4948309,73.8026102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_77bbbb50b1da4700a8fbf206f650ee5b = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_77bbbb50b1da4700a8fbf206f650ee5b.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_bfe4debe806444578bfa6306b173f02a.bindPopup(popup_77bbbb50b1da4700a8fbf206f650ee5b);
+
+            
+        
+    
+            var circle_marker_30d67147596a4b158ad900131c0f4a2c = L.circleMarker(
+                [18.4948309,73.8026102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_77b9e5ea539640e68a3d14793005d31d = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_77b9e5ea539640e68a3d14793005d31d.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_30d67147596a4b158ad900131c0f4a2c.bindPopup(popup_77b9e5ea539640e68a3d14793005d31d);
+
+            
+        
+    
+            var circle_marker_57273beb0cc5461890c3fb42e6693545 = L.circleMarker(
+                [18.4948309,73.8026102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_b81e13c350344bea9d41aef4747437d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_b81e13c350344bea9d41aef4747437d0.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_57273beb0cc5461890c3fb42e6693545.bindPopup(popup_b81e13c350344bea9d41aef4747437d0);
+
+            
+        
+    
+            var circle_marker_2239f773ae6b4a2d9478d1d0f17dbad6 = L.circleMarker(
+                [18.4948535,73.8026841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_030c86de16704ad993d0bd6472d13a80 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_030c86de16704ad993d0bd6472d13a80.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_2239f773ae6b4a2d9478d1d0f17dbad6.bindPopup(popup_030c86de16704ad993d0bd6472d13a80);
+
+            
+        
+    
+            var circle_marker_9e0920e37a5a4c778c435d3c341253f5 = L.circleMarker(
+                [18.4948267,73.8026087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_a09e1cdcbc5f4fe5b4e364621b7be92f = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_a09e1cdcbc5f4fe5b4e364621b7be92f.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_9e0920e37a5a4c778c435d3c341253f5.bindPopup(popup_a09e1cdcbc5f4fe5b4e364621b7be92f);
+
+            
+        
+    
+            var circle_marker_463159670dac4d02bf417a28e054f1d6 = L.circleMarker(
+                [18.5107,73.8437],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_703140dfc59c466eb300524d070e8169 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_703140dfc59c466eb300524d070e8169.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_463159670dac4d02bf417a28e054f1d6.bindPopup(popup_703140dfc59c466eb300524d070e8169);
+
+            
+        
+    
+            var circle_marker_a287e1cd168542b49dae5101c1f4ed2f = L.circleMarker(
+                [18.5107,73.8437],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_b4ecc4503a54496e8a16925b225cc8e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_b4ecc4503a54496e8a16925b225cc8e6.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_a287e1cd168542b49dae5101c1f4ed2f.bindPopup(popup_b4ecc4503a54496e8a16925b225cc8e6);
+
+            
+        
+    
+            var circle_marker_9f304bb46602400989cfa0ee3d04c594 = L.circleMarker(
+                [18.4961248,73.8024096],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_06c1ddfb1d954852b75c64ef2a1c7635 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_06c1ddfb1d954852b75c64ef2a1c7635.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_9f304bb46602400989cfa0ee3d04c594.bindPopup(popup_06c1ddfb1d954852b75c64ef2a1c7635);
+
+            
+        
+    
+            var circle_marker_47122f2669aa459486d696d23db7d9d4 = L.circleMarker(
+                [18.4961248,73.8024096],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_c2586dc0a1f64afea5d730a2d28fbd92 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_c2586dc0a1f64afea5d730a2d28fbd92.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_47122f2669aa459486d696d23db7d9d4.bindPopup(popup_c2586dc0a1f64afea5d730a2d28fbd92);
+
+            
+        
+    
+            var circle_marker_587a40bbca184bacb75fbeed0e11339e = L.circleMarker(
+                [18.4948268,73.8026082],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_0eb65529eabe47d99ce1b5304b1ae8c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_0eb65529eabe47d99ce1b5304b1ae8c4.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_587a40bbca184bacb75fbeed0e11339e.bindPopup(popup_0eb65529eabe47d99ce1b5304b1ae8c4);
+
+            
+        
+    
+            var circle_marker_90ff8527f9a04a28b1f4619ec59d24e2 = L.circleMarker(
+                [18.4946678,73.8024499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_70e46ae87265498fb446cbfc4323298a = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_70e46ae87265498fb446cbfc4323298a.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_90ff8527f9a04a28b1f4619ec59d24e2.bindPopup(popup_70e46ae87265498fb446cbfc4323298a);
+
+            
+        
+    
+            var circle_marker_fd203f8f9b1945478816be283f162701 = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e74906b451af41b485bdb811045d252d = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_e74906b451af41b485bdb811045d252d.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_fd203f8f9b1945478816be283f162701.bindPopup(popup_e74906b451af41b485bdb811045d252d);
+
+            
+        
+    
+            var circle_marker_85b2c1a3dccf4351a0d4fdc85ab32a4c = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_a0fd081b03b14efd90737d47515606cb = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_a0fd081b03b14efd90737d47515606cb.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_85b2c1a3dccf4351a0d4fdc85ab32a4c.bindPopup(popup_a0fd081b03b14efd90737d47515606cb);
+
+            
+        
+    
+            var circle_marker_4f9c84a4a8d3464faa2ba681681a1bc3 = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_929be29d2d5345ed9ae6726be4536d14 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_929be29d2d5345ed9ae6726be4536d14.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_4f9c84a4a8d3464faa2ba681681a1bc3.bindPopup(popup_929be29d2d5345ed9ae6726be4536d14);
+
+            
+        
+    
+            var circle_marker_8fd1e30c5b5f445b922bdce6285191bb = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_8e7c42e26a5a4882975d52cab7911ceb = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_8e7c42e26a5a4882975d52cab7911ceb.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_8fd1e30c5b5f445b922bdce6285191bb.bindPopup(popup_8e7c42e26a5a4882975d52cab7911ceb);
+
+            
+        
+    
+            var circle_marker_e8675bdd9c1343709b253631838983fa = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e59b75a1cb1943d491f4bac265b2ad7d = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_e59b75a1cb1943d491f4bac265b2ad7d.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_e8675bdd9c1343709b253631838983fa.bindPopup(popup_e59b75a1cb1943d491f4bac265b2ad7d);
+
+            
+        
+    
+            var circle_marker_767f169d96aa4350ac7dd8bc186c4ea1 = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_75bf5afcb18d483da61ae918c516ae97 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_75bf5afcb18d483da61ae918c516ae97.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_767f169d96aa4350ac7dd8bc186c4ea1.bindPopup(popup_75bf5afcb18d483da61ae918c516ae97);
+
+            
+        
+    
+            var circle_marker_9bb45a6ad1da426d9c4cc6aaf4272c9f = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_48d7bc5de2fa4e519976b82680d9b442 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_48d7bc5de2fa4e519976b82680d9b442.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_9bb45a6ad1da426d9c4cc6aaf4272c9f.bindPopup(popup_48d7bc5de2fa4e519976b82680d9b442);
+
+            
+        
+    
+            var circle_marker_a7600751643f456a8066f4f6bd111940 = L.circleMarker(
+                [18.5173905,73.8154206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_32ddac480677493e80e2adfd82ad990e = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_32ddac480677493e80e2adfd82ad990e.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_a7600751643f456a8066f4f6bd111940.bindPopup(popup_32ddac480677493e80e2adfd82ad990e);
+
+            
+        
+    
+            var circle_marker_2781e347390d440d8359b76d77f1b0fc = L.circleMarker(
+                [18.5172496,73.8151278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_0192b0a7ea144349b4c0f56250d4c74b = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_0192b0a7ea144349b4c0f56250d4c74b.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_2781e347390d440d8359b76d77f1b0fc.bindPopup(popup_0192b0a7ea144349b4c0f56250d4c74b);
+
+            
+        
+    
+            var circle_marker_b7fc2a9aa49b4f4f8369e134897f22fa = L.circleMarker(
+                [18.5172496,73.8151278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_8ec25fbf6a854437913aba7e8f33bb70 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_8ec25fbf6a854437913aba7e8f33bb70.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_b7fc2a9aa49b4f4f8369e134897f22fa.bindPopup(popup_8ec25fbf6a854437913aba7e8f33bb70);
+
+            
+        
+    
+            var circle_marker_3f0f7332da67476e9b000d2f3417ba82 = L.circleMarker(
+                [18.5172496,73.8151278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e5a55a5291394487854609ed50406173 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_e5a55a5291394487854609ed50406173.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_3f0f7332da67476e9b000d2f3417ba82.bindPopup(popup_e5a55a5291394487854609ed50406173);
+
+            
+        
+    
+            var circle_marker_bfb013083bc94f62bc0dff471746f6a5 = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_70da379453114cd4838976c2db888e45 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_70da379453114cd4838976c2db888e45.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_bfb013083bc94f62bc0dff471746f6a5.bindPopup(popup_70da379453114cd4838976c2db888e45);
+
+            
+        
+    
+            var circle_marker_310facf8f39c4f699ec6fcd1a88dfb2b = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_eca75745648f4720a56bfcb60c2ff2ea = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_eca75745648f4720a56bfcb60c2ff2ea.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_310facf8f39c4f699ec6fcd1a88dfb2b.bindPopup(popup_eca75745648f4720a56bfcb60c2ff2ea);
+
+            
+        
+    
+            var circle_marker_84a3221f16724ecb9d42c00b59d50354 = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_3e67111422884f67bdacfdb5e43a7fe6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_3e67111422884f67bdacfdb5e43a7fe6.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_84a3221f16724ecb9d42c00b59d50354.bindPopup(popup_3e67111422884f67bdacfdb5e43a7fe6);
+
+            
+        
+    
+            var circle_marker_60506ccc97c145e2b8ac02f115f3d6f3 = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_faac9c8cd6334f079401a4025a9d8939 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_faac9c8cd6334f079401a4025a9d8939.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_60506ccc97c145e2b8ac02f115f3d6f3.bindPopup(popup_faac9c8cd6334f079401a4025a9d8939);
+
+            
+        
+    
+            var circle_marker_25d8e9b17beb48958ada30e804e237b1 = L.circleMarker(
+                [18.4947448,73.8026059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_5c2ac5f53d8d4fa5ab96d4014d3cbf44 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_5c2ac5f53d8d4fa5ab96d4014d3cbf44.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_25d8e9b17beb48958ada30e804e237b1.bindPopup(popup_5c2ac5f53d8d4fa5ab96d4014d3cbf44);
+
+            
+        
+    
+            var circle_marker_de92a14912bd4626b8af6a70c28f266d = L.circleMarker(
+                [18.4948261,73.8026083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_018609bb4401448da9cf315538564968 = L.popup({maxWidth: '300'});
+
+            
+                var html_a55ff415108e40a4b5bc28009077ee33 = $('<div id="html_a55ff415108e40a4b5bc28009077ee33" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">maggi</a></div>')[0];
+                popup_018609bb4401448da9cf315538564968.setContent(html_a55ff415108e40a4b5bc28009077ee33);
+            
+
+            circle_marker_de92a14912bd4626b8af6a70c28f266d.bindPopup(popup_018609bb4401448da9cf315538564968);
+
+            
+        
+    
+            var circle_marker_3d67cb66c9a2447a9fe8e0b2b5da0457 = L.circleMarker(
+                [18.4971356,73.8024026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_02804c5ed1af46bba246893df2b5b157 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_02804c5ed1af46bba246893df2b5b157.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_3d67cb66c9a2447a9fe8e0b2b5da0457.bindPopup(popup_02804c5ed1af46bba246893df2b5b157);
+
+            
+        
+    
+            var circle_marker_c9dedd1d1af447f3be53bd49b3a23cf8 = L.circleMarker(
+                [18.4971356,73.8024026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_a904c3cf05c04aff9d5bc65b4185c18e = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_a904c3cf05c04aff9d5bc65b4185c18e.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_c9dedd1d1af447f3be53bd49b3a23cf8.bindPopup(popup_a904c3cf05c04aff9d5bc65b4185c18e);
+
+            
+        
+    
+            var circle_marker_17bf8e31112343f6ac4b5f979144a8fb = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_fb98a6a88dc34b4db1f888f657580b97 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_fb98a6a88dc34b4db1f888f657580b97.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_17bf8e31112343f6ac4b5f979144a8fb.bindPopup(popup_fb98a6a88dc34b4db1f888f657580b97);
+
+            
+        
+    
+            var circle_marker_c840cab8652345ce86037338d51a2923 = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_d68c136cfdb948c7b20c33ee209abe3e = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_d68c136cfdb948c7b20c33ee209abe3e.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_c840cab8652345ce86037338d51a2923.bindPopup(popup_d68c136cfdb948c7b20c33ee209abe3e);
+
+            
+        
+    
+            var circle_marker_5e5c1dd8054741fcb5ec4690e0e4d529 = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_5d446e8fea884a6d947f8a4824093a89 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_5d446e8fea884a6d947f8a4824093a89.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_5e5c1dd8054741fcb5ec4690e0e4d529.bindPopup(popup_5d446e8fea884a6d947f8a4824093a89);
+
+            
+        
+    
+            var circle_marker_c847c7a02d194d338211d2683f860850 = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_909d6cbcbaa84185a1e722ac01985cdc = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_909d6cbcbaa84185a1e722ac01985cdc.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_c847c7a02d194d338211d2683f860850.bindPopup(popup_909d6cbcbaa84185a1e722ac01985cdc);
+
+            
+        
+    
+            var circle_marker_1d678914c9e24b26bed478cc191d2939 = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_6a10699b2b704a17b80a619d8687c520 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_6a10699b2b704a17b80a619d8687c520.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_1d678914c9e24b26bed478cc191d2939.bindPopup(popup_6a10699b2b704a17b80a619d8687c520);
+
+            
+        
+    
+            var circle_marker_2b15f5f81c2340c387431270ae31a7d6 = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f4144ef8a3c44bc28c305c3a65f515c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_f4144ef8a3c44bc28c305c3a65f515c7.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_2b15f5f81c2340c387431270ae31a7d6.bindPopup(popup_f4144ef8a3c44bc28c305c3a65f515c7);
+
+            
+        
+    
+            var circle_marker_5ae1a69c4ab84f5bb3626579fbceb86f = L.circleMarker(
+                [18.4961965,73.8019163],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_ece311b97fc140a290928e2855d7aada = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_ece311b97fc140a290928e2855d7aada.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_5ae1a69c4ab84f5bb3626579fbceb86f.bindPopup(popup_ece311b97fc140a290928e2855d7aada);
+
+            
+        
+    
+            var circle_marker_d7ccd8f9343d4fc393317bb5d8b9b8f0 = L.circleMarker(
+                [18.4971269,73.8024115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_34c8c329fa4f477eb5edeff5c475771f = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_34c8c329fa4f477eb5edeff5c475771f.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_d7ccd8f9343d4fc393317bb5d8b9b8f0.bindPopup(popup_34c8c329fa4f477eb5edeff5c475771f);
+
+            
+        
+    
+            var circle_marker_8427b68d607d4fa586b6fb16e201d240 = L.circleMarker(
+                [18.4958055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_a7de3855a5134ccd99999577b45c7296 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_a7de3855a5134ccd99999577b45c7296.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_8427b68d607d4fa586b6fb16e201d240.bindPopup(popup_a7de3855a5134ccd99999577b45c7296);
+
+            
+        
+    
+            var circle_marker_cf8173b5c639421d904c4c9e2393b7e1 = L.circleMarker(
+                [18.4958055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_913a39bd35004b80964014cf079c1ca2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_913a39bd35004b80964014cf079c1ca2.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_cf8173b5c639421d904c4c9e2393b7e1.bindPopup(popup_913a39bd35004b80964014cf079c1ca2);
+
+            
+        
+    
+            var circle_marker_2114605278564a06888f169a939dbaf4 = L.circleMarker(
+                [18.4958055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f375f4f81251447b9cbafaee4a9833e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_f375f4f81251447b9cbafaee4a9833e3.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_2114605278564a06888f169a939dbaf4.bindPopup(popup_f375f4f81251447b9cbafaee4a9833e3);
+
+            
+        
+    
+            var circle_marker_217e05ed90e0460ba6eeecc0a85b2ffe = L.circleMarker(
+                [18.4958055,73.8026636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_65cbd510f8f04b85b80c72feb0472064 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_65cbd510f8f04b85b80c72feb0472064.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_217e05ed90e0460ba6eeecc0a85b2ffe.bindPopup(popup_65cbd510f8f04b85b80c72feb0472064);
+
+            
+        
+    
+            var circle_marker_4991e93ec8ca4d9d8b36ac013aafbeb9 = L.circleMarker(
+                [18.495825800000002,73.802608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_3266ed7234e343059bced407eb543ccd = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_3266ed7234e343059bced407eb543ccd.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_4991e93ec8ca4d9d8b36ac013aafbeb9.bindPopup(popup_3266ed7234e343059bced407eb543ccd);
+
+            
+        
+    
+            var circle_marker_8ac1e6e66dc44359b473ac023cce4240 = L.circleMarker(
+                [18.4958309,73.8026102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_944f7a7643d84aecb02a806ccb0e9956 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_944f7a7643d84aecb02a806ccb0e9956.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_8ac1e6e66dc44359b473ac023cce4240.bindPopup(popup_944f7a7643d84aecb02a806ccb0e9956);
+
+            
+        
+    
+            var circle_marker_6b5d5d6c80784987bdf8f3efc3cf666b = L.circleMarker(
+                [18.5317,73.8837],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_fdc784991b8444e482d6f14aee2b023a = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_fdc784991b8444e482d6f14aee2b023a.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_6b5d5d6c80784987bdf8f3efc3cf666b.bindPopup(popup_fdc784991b8444e482d6f14aee2b023a);
+
+            
+        
+    
+            var circle_marker_141a7c857ef0442db241c0ede1acd486 = L.circleMarker(
+                [18.495826700000002,73.8026087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_cf3d571757a947ef816a36e9b9ead51d = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_cf3d571757a947ef816a36e9b9ead51d.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_141a7c857ef0442db241c0ede1acd486.bindPopup(popup_cf3d571757a947ef816a36e9b9ead51d);
+
+            
+        
+    
+            var circle_marker_b13d232c709549388e3ed1eef060f32a = L.circleMarker(
+                [18.495826700000002,73.8026087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2bfeb9fbd8334a4fa3fbbdb4d77f9206 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_2bfeb9fbd8334a4fa3fbbdb4d77f9206.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_b13d232c709549388e3ed1eef060f32a.bindPopup(popup_2bfeb9fbd8334a4fa3fbbdb4d77f9206);
+
+            
+        
+    
+            var circle_marker_2b1ff941bddc4d63b1b67ce7f557b311 = L.circleMarker(
+                [18.5117,73.8437],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_23314d3bf72e4fda938456fcd5400eff = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_23314d3bf72e4fda938456fcd5400eff.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_2b1ff941bddc4d63b1b67ce7f557b311.bindPopup(popup_23314d3bf72e4fda938456fcd5400eff);
+
+            
+        
+    
+            var circle_marker_8061e3e794b04de59ccfea131fbc2ab7 = L.circleMarker(
+                [18.4958263,73.802608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_b522ab412f8f4e95a4a88e4d9f6737b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_b522ab412f8f4e95a4a88e4d9f6737b0.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_8061e3e794b04de59ccfea131fbc2ab7.bindPopup(popup_b522ab412f8f4e95a4a88e4d9f6737b0);
+
+            
+        
+    
+            var circle_marker_f7ea1e5415a4433f89582e7a525d7be6 = L.circleMarker(
+                [18.4958263,73.802608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_12adb4b00fda42739d71dc196140ecbc = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_12adb4b00fda42739d71dc196140ecbc.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_f7ea1e5415a4433f89582e7a525d7be6.bindPopup(popup_12adb4b00fda42739d71dc196140ecbc);
+
+            
+        
+    
+            var circle_marker_499adc99e02c4de39654205b7ed9d8ec = L.circleMarker(
+                [18.495828,73.8026087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e56856f7b84c483fa2ce099ad293b647 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_e56856f7b84c483fa2ce099ad293b647.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_499adc99e02c4de39654205b7ed9d8ec.bindPopup(popup_e56856f7b84c483fa2ce099ad293b647);
+
+            
+        
+    
+            var circle_marker_9411cb9ddc4c4ad6a0fe1bc33752b081 = L.circleMarker(
+                [18.4958263,73.802608],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_c10c523f1eb1460db5dd09e81666eb8f = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_c10c523f1eb1460db5dd09e81666eb8f.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_9411cb9ddc4c4ad6a0fe1bc33752b081.bindPopup(popup_c10c523f1eb1460db5dd09e81666eb8f);
+
+            
+        
+    
+            var circle_marker_9a3bf4e3fb254be9867d5094d36b01ca = L.circleMarker(
+                [18.495828,73.8026087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_dd3bcdfb7dc24eb08ea90c8fa7ae2754 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_dd3bcdfb7dc24eb08ea90c8fa7ae2754.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_9a3bf4e3fb254be9867d5094d36b01ca.bindPopup(popup_dd3bcdfb7dc24eb08ea90c8fa7ae2754);
+
+            
+        
+    
+            var circle_marker_b9c541564d254425b842a398bc9214a6 = L.circleMarker(
+                [18.4971248,73.8024096],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_395383909ecb4bd3b75361e3bb06faff = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_395383909ecb4bd3b75361e3bb06faff.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_b9c541564d254425b842a398bc9214a6.bindPopup(popup_395383909ecb4bd3b75361e3bb06faff);
+
+            
+        
+    
+            var circle_marker_8acdd107859a4f8786d602c665677e81 = L.circleMarker(
+                [18.4971248,73.8024096],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_4edf9cd3379b4339acf14cee6ded0fb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5840203048843398cfc0e08f6a25b5e = $('<div id="html_b5840203048843398cfc0e08f6a25b5e" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">pepsi</a></div>')[0];
+                popup_4edf9cd3379b4339acf14cee6ded0fb2.setContent(html_b5840203048843398cfc0e08f6a25b5e);
+            
+
+            circle_marker_8acdd107859a4f8786d602c665677e81.bindPopup(popup_4edf9cd3379b4339acf14cee6ded0fb2);
+
+            
+        
+    
+            var circle_marker_443b5adb3676492897d80199aae7879b = L.circleMarker(
+                [18.4958275,73.80360850000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_7d7c52d73cee4eb8a2f26f17b6f7b714 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_7d7c52d73cee4eb8a2f26f17b6f7b714.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_443b5adb3676492897d80199aae7879b.bindPopup(popup_7d7c52d73cee4eb8a2f26f17b6f7b714);
+
+            
+        
+    
+            var circle_marker_36c26c6786d44242be0d2a77e2069617 = L.circleMarker(
+                [18.4958275,73.80360850000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f2799765324b4bad8736f31d89053d7e = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_f2799765324b4bad8736f31d89053d7e.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_36c26c6786d44242be0d2a77e2069617.bindPopup(popup_f2799765324b4bad8736f31d89053d7e);
+
+            
+        
+    
+            var circle_marker_6cb999048b744576ae074b83a7c73857 = L.circleMarker(
+                [18.4958275,73.80360850000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_4909781c784b4962a1ae4208fb7dea10 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_4909781c784b4962a1ae4208fb7dea10.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_6cb999048b744576ae074b83a7c73857.bindPopup(popup_4909781c784b4962a1ae4208fb7dea10);
+
+            
+        
+    
+            var circle_marker_2862d7f760f04d3d8c049761f2ebc816 = L.circleMarker(
+                [18.495826100000002,73.80360830000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_66864a056da247f99ed4cd36dbeac89f = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_66864a056da247f99ed4cd36dbeac89f.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_2862d7f760f04d3d8c049761f2ebc816.bindPopup(popup_66864a056da247f99ed4cd36dbeac89f);
+
+            
+        
+    
+            var circle_marker_450792d0371544ccaecd1f8aec57f72c = L.circleMarker(
+                [18.4957448,73.80360590000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_4680eeb6170645f980ec66d3e6c54cae = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_4680eeb6170645f980ec66d3e6c54cae.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_450792d0371544ccaecd1f8aec57f72c.bindPopup(popup_4680eeb6170645f980ec66d3e6c54cae);
+
+            
+        
+    
+            var circle_marker_5e02ed0b54b649be99d70964409c6012 = L.circleMarker(
+                [18.495826100000002,73.80360830000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_cf7b0f1f56c74bcf8fa7939ee0c7362c = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_cf7b0f1f56c74bcf8fa7939ee0c7362c.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_5e02ed0b54b649be99d70964409c6012.bindPopup(popup_cf7b0f1f56c74bcf8fa7939ee0c7362c);
+
+            
+        
+    
+            var circle_marker_0f1bdd9623ee46ddbc4312cc24347255 = L.circleMarker(
+                [18.495826100000002,73.80360830000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_e9d7d34ad5e4421eb0d52a459d10ae0e = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_e9d7d34ad5e4421eb0d52a459d10ae0e.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_0f1bdd9623ee46ddbc4312cc24347255.bindPopup(popup_e9d7d34ad5e4421eb0d52a459d10ae0e);
+
+            
+        
+    
+            var circle_marker_4ae3a524b54b4a688c414c013fc5e7b7 = L.circleMarker(
+                [18.495826100000002,73.80360830000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_56249bf8cae847d78c5978c3a734887b = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_56249bf8cae847d78c5978c3a734887b.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_4ae3a524b54b4a688c414c013fc5e7b7.bindPopup(popup_56249bf8cae847d78c5978c3a734887b);
+
+            
+        
+    
+            var circle_marker_f5f50784854143ce833d8a27c4ee4f9d = L.circleMarker(
+                [18.495826100000002,73.80360830000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_36251bade7f7495a87bbab16d9b9f62e = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_36251bade7f7495a87bbab16d9b9f62e.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_f5f50784854143ce833d8a27c4ee4f9d.bindPopup(popup_36251bade7f7495a87bbab16d9b9f62e);
+
+            
+        
+    
+            var circle_marker_677fe2649b41481a991518b01b2abad1 = L.circleMarker(
+                [18.495826100000002,73.80360830000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f0f19871d77641da811651c0b3bd2e79 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_f0f19871d77641da811651c0b3bd2e79.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_677fe2649b41481a991518b01b2abad1.bindPopup(popup_f0f19871d77641da811651c0b3bd2e79);
+
+            
+        
+    
+            var circle_marker_35691a318fcc47bab00cb12d421069ed = L.circleMarker(
+                [18.4957448,73.80360590000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_1d6abfc3d2a24eed8b94ffd9d7a16644 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_1d6abfc3d2a24eed8b94ffd9d7a16644.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_35691a318fcc47bab00cb12d421069ed.bindPopup(popup_1d6abfc3d2a24eed8b94ffd9d7a16644);
+
+            
+        
+    
+            var circle_marker_b903fd1e2229437b87e01a429c700735 = L.circleMarker(
+                [18.4957448,73.80360590000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_68d00f92200f40adb13a3408cd5e4e68 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_68d00f92200f40adb13a3408cd5e4e68.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_b903fd1e2229437b87e01a429c700735.bindPopup(popup_68d00f92200f40adb13a3408cd5e4e68);
+
+            
+        
+    
+            var circle_marker_c5ae5b4d40dc46e7aa07fe5f29dfa834 = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_59ff7dbfa8944b87abba89ce6f6370a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_59ff7dbfa8944b87abba89ce6f6370a2.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_c5ae5b4d40dc46e7aa07fe5f29dfa834.bindPopup(popup_59ff7dbfa8944b87abba89ce6f6370a2);
+
+            
+        
+    
+            var circle_marker_de3246a022df4050aeea2a3ab830e795 = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_57bc0f90ddf847688119ba914bfe35dd = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_57bc0f90ddf847688119ba914bfe35dd.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_de3246a022df4050aeea2a3ab830e795.bindPopup(popup_57bc0f90ddf847688119ba914bfe35dd);
+
+            
+        
+    
+            var circle_marker_3e5cc8b94373420ebba88358317efb80 = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_04e9c9e5dbc546ae8bc769cc64ebd988 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_04e9c9e5dbc546ae8bc769cc64ebd988.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_3e5cc8b94373420ebba88358317efb80.bindPopup(popup_04e9c9e5dbc546ae8bc769cc64ebd988);
+
+            
+        
+    
+            var circle_marker_6477538a60624f2e9e56d8e1600f4175 = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_8d5ac409d6eb4dde9986ce0b513769b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_8d5ac409d6eb4dde9986ce0b513769b5.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_6477538a60624f2e9e56d8e1600f4175.bindPopup(popup_8d5ac409d6eb4dde9986ce0b513769b5);
+
+            
+        
+    
+            var circle_marker_fa897de8dd92476c981966199e483efd = L.circleMarker(
+                [18.495825800000002,73.80360800000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_37f7685f3730491a8c7ededb4083100c = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_37f7685f3730491a8c7ededb4083100c.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_fa897de8dd92476c981966199e483efd.bindPopup(popup_37f7685f3730491a8c7ededb4083100c);
+
+            
+        
+    
+            var circle_marker_8ed41c34e14e4f1086738bdcaa57bb98 = L.circleMarker(
+                [18.4958275,73.80360850000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_57180289a6b140fa8008250f21adb6bd = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_57180289a6b140fa8008250f21adb6bd.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_8ed41c34e14e4f1086738bdcaa57bb98.bindPopup(popup_57180289a6b140fa8008250f21adb6bd);
+
+            
+        
+    
+            var circle_marker_ccabebffc23e49d2834916b1fad01baa = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_4bc66aa374bc4a9e912b9abc2bc7a4bb = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_4bc66aa374bc4a9e912b9abc2bc7a4bb.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_ccabebffc23e49d2834916b1fad01baa.bindPopup(popup_4bc66aa374bc4a9e912b9abc2bc7a4bb);
+
+            
+        
+    
+            var circle_marker_551d9abb800f4ab6bee67b9dc5624a97 = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_d9e5c9ca6c3846778afa6435545cc6fc = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_d9e5c9ca6c3846778afa6435545cc6fc.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_551d9abb800f4ab6bee67b9dc5624a97.bindPopup(popup_d9e5c9ca6c3846778afa6435545cc6fc);
+
+            
+        
+    
+            var circle_marker_de120c2cd5bc49219106cf0485e64d3e = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2f682b249b7e45909cb62e4f06d38f07 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_2f682b249b7e45909cb62e4f06d38f07.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_de120c2cd5bc49219106cf0485e64d3e.bindPopup(popup_2f682b249b7e45909cb62e4f06d38f07);
+
+            
+        
+    
+            var circle_marker_8ae499f48f674164b68b5b10296a988a = L.circleMarker(
+                [18.4958055,73.80366360000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_7b5b1ba51803415283190422ae96fb73 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_7b5b1ba51803415283190422ae96fb73.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_8ae499f48f674164b68b5b10296a988a.bindPopup(popup_7b5b1ba51803415283190422ae96fb73);
+
+            
+        
+    
+            var circle_marker_c6e42c0d413d497c8af6ba3c9dbacccb = L.circleMarker(
+                [18.495825800000002,73.80360800000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_1d05a9f875b44eb894abd3208e0bf792 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_1d05a9f875b44eb894abd3208e0bf792.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_c6e42c0d413d497c8af6ba3c9dbacccb.bindPopup(popup_1d05a9f875b44eb894abd3208e0bf792);
+
+            
+        
+    
+            var circle_marker_ab82b73e48664179bf2400888def5b02 = L.circleMarker(
+                [18.4958275,73.80360850000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2549e88826774e3393574f7d69e31177 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_2549e88826774e3393574f7d69e31177.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_ab82b73e48664179bf2400888def5b02.bindPopup(popup_2549e88826774e3393574f7d69e31177);
+
+            
+        
+    
+            var circle_marker_f23ac80db8b849d191c1195d5a92d512 = L.circleMarker(
+                [18.4958275,73.80360850000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_f2a8f25fce68427c82f4f51c2f58eba5 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_f2a8f25fce68427c82f4f51c2f58eba5.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_f23ac80db8b849d191c1195d5a92d512.bindPopup(popup_f2a8f25fce68427c82f4f51c2f58eba5);
+
+            
+        
+    
+            var circle_marker_0606642bbe104c9bbcdf74d269f43478 = L.circleMarker(
+                [18.518390500000002,73.8164206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_456549dae87b48229f036b7cdc2a4141 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_456549dae87b48229f036b7cdc2a4141.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_0606642bbe104c9bbcdf74d269f43478.bindPopup(popup_456549dae87b48229f036b7cdc2a4141);
+
+            
+        
+    
+            var circle_marker_3506792b3c9742fcb980411d9bbe6b76 = L.circleMarker(
+                [18.518390500000002,73.8164206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "brown",
+  "fillOpacity": 0.8,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c07dad539c93474e83c946d393731825);
+            
+    
+            var popup_2be56e27d0d34d018c716b4febbe4881 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b1705aba2a04e4588538818bb1f2c24 = $('<div id="html_8b1705aba2a04e4588538818bb1f2c24" style="width: 100.0%; height: 100.0%;"><a href="/home/dj/Work/DeepBlue/retina/pie.html">cadbury</a></div>')[0];
+                popup_2be56e27d0d34d018c716b4febbe4881.setContent(html_8b1705aba2a04e4588538818bb1f2c24);
+            
+
+            circle_marker_3506792b3c9742fcb980411d9bbe6b76.bindPopup(popup_2be56e27d0d34d018c716b4febbe4881);
+
+            
+        
+</script>
